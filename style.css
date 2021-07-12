@@ -1,0 +1,134 @@
+.center{
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+
+
+}
+.common-width{
+    margin: 0 auto;
+    max-width: 1200px;
+
+
+}
+.header-content{
+    padding: 20px;
+}
+ul{
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+}
+/* header section */
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+.header-left img {
+	margin-top: 0;
+}
+.header-right ul li {
+    display: inline-block;
+    padding:0 20px
+}
+.header-right ul li a{
+    font-size: 20px;
+
+}
+.header-right ul li a:hover{
+    color: darkorange;
+}
+.Sign-up{
+    background-color: chartreuse;
+    transition: all .5s ease-in-out;
+    display: block;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 25px;
+
+
+}
+.Sign-up:hover{
+    color: black !important;
+    background: blueviolet;
+}
+.header-content{
+    padding-top: 30px;
+}
+/* Banner section */
+.banner-section{
+    background:url(./banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.banner-content{}
+.banner-text {
+	text-align: center;
+	padding: 100px 0;
+}
+.banner-text h1 {
+	color: #fff;
+	font-size: 5em;
+}
+.banner-text h2 {
+	color: #fff;
+	font-size: 3em;
+	padding-top: 20px;
+}
+.banner-text h3 {
+	color: #ce9b00;
+	padding: 1em 0;
+	font-size: 2em;
+}
+.banner-text p {
+	color: #FFF;
+	font-size: 20px;
+	padding: 1em 11em;
+	line-height: 26px;
+}
+.Read-More {
+	display: inline-block;
+	margin-top: 20px;
+	background: white;
+}
+/*     <!-- varaity section start --> */
+.varaity-section {
+	padding: 5em 0;
+	text-align: center;
+}
+.varaity-content{}
+.varaity-content h1 {
+	font-size: 4em;
+}
+.varaity-content p {
+	font-size: 20px;
+	padding: 10px;
+	color: #333;
+}
+.varaity-img {
+	display: flex;
+	justify-content: center;
+	margin-top: 2em;
+}
+.varaity-text{}
+.varaity-text ul {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3em;
+	background: #F6D601;
+	padding: 1em 35px;
+	font-size: 2em;
+}
+.varaity-text ul li{}
+.same-img img{}
